@@ -6,9 +6,9 @@ export const Card = ({ data }) => {
         <div className="card-container">
             <center>
                 <img alt="monster" src={`https://robohash.org/${data.id}?set=set2&size=180x180`} />
+                <h2>{data.name}</h2>
+                <p>{data.email}</p>
             </center>
-            <h2>{data.name}</h2>
-            <p>{data.email}</p>
         </div>
     );
 };
